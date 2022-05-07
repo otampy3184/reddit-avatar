@@ -126,7 +126,8 @@ Summary
 :          0.037272316152011469 ETH
 ```
 
-check the contract address above and serch it on Etherscan
+check the contract address above and serch it on Opensea
+URL is `https://testnets.opensea.io/assets/CONTRACT_ADDRESS/0`
 
 
 
