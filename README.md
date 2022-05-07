@@ -1,0 +1,1 @@
+# deploy my reddit avatar on ERC1155 contract as NFT
