@@ -12,7 +12,7 @@ install ERC1155 contract from @openzeppelin
 $ npm install @openzeppelin/contracts
 ```
 
-create test contracts override ERC1155.sol
+create test contract overrides ERC1155.sol
 ```javascript
 // SPDX-License-Identifier: MIT
 
@@ -72,7 +72,7 @@ install @truffle/hdwallet-provider
 $ npm install @truffle/hdwallet-provider --save-dev
 ```
 
-set truffle-config.js to connect test network(rinkeby)
+edit truffle-config.js to connect test network(rinkeby)
 ```javascript
     const HDWalletProvider = require('@truffle/hdwallet-provider');
     const mnemonic = "MY METAMASK MEMONIC";
@@ -126,7 +126,7 @@ Summary
 :          0.037272316152011469 ETH
 ```
 
-check the contract address above and serch it on Opensea
+check the contract address above and serch it on the Opensea
 URL is `https://testnets.opensea.io/assets/CONTRACT_ADDRESS/0`
 
 
