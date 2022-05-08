@@ -23,6 +23,16 @@ contract RedditAvatar is ERC1155 {
 
         _mint(msg.sender, SAVATHUN, 100, "");
     }
+
+    function uri(uint256 _id) public view override returns (string memory) {
+    // "https://~~~" + tokenID + ".json" の文字列結合を行っている
+	// OpenSeaはここのメタデータを読み取ることで画像等を表示している
+        return string(abi.encodePacked(
+            baseMetadataURIPrefix,
+            Strings.toString(_id),
+            baseMetadataURISuffix
+        ));
+    }
     
     // 指定量をmsg.senderに対してmintする実装(親機能呼び出し)
     function mint(uint256 _id, uint256 _amount) public {
