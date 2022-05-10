@@ -20,9 +20,8 @@
 
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 
-// const fs = require('fs');
-const mnemonic = "keen trade globe seven hat drive ticket air sight acquire fabric cupboard";
-//const accessToken = "9294406b354849b49052ee5d130fac9a"
+const fs = require('fs');
+const mnemonic = fs.readFileSync(".secret").toString().trim();
 
 module.exports = {
   /**
