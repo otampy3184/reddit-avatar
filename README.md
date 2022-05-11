@@ -1,4 +1,4 @@
-# Deploy my reddit avatar on Rinkeby test network as NFT(and it also Fungible)
+# Deploy my reddit avatar on Rinkeby test network as NFT(and it's also Fungible)
 - Smart contract framework => Truffle
 - Token Standard => ERC1155(openzeppelin)
 - Ethereum test network => Rinkeby
