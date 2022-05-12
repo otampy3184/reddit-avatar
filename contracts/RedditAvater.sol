@@ -18,8 +18,8 @@ contract RedditAvatar is ERC1155 {
 
     // コンストラクタで初期値を設定
     constructor() ERC1155(""){
-        baseMetadataURIPrefix = "https://firebasestorage.googleapis.com/v0/b/my-reddit-avatar.appspot.com/o/reddit-avatar";
-        baseMetadataURISuffix = ".png?alt=media&token=99e63152-f7bc-4228-8303-5e2693d06d99";
+        baseMetadataURIPrefix = "https://raw.githubusercontent.com/otampy3184/metadata-okuyo/main/image/reddit-avatar";
+        baseMetadataURISuffix = ".png";
 
         _mint(msg.sender, SAVATHUN, 100, "");
     }
